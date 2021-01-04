@@ -3,10 +3,12 @@ package com.telemedecine.services;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.telemedine.models.Justification;
 import com.telemedine.repository.JustificationRepository;
- 
+
+@Service
 public class JustificationService {
 
 	

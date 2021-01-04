@@ -3,10 +3,11 @@ package com.telemedecine.services;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.telemedine.models.Adresse;
 import com.telemedine.repository.AdresseRepository;
- 
+@Service 
 public class AdresseService {
 	
 	

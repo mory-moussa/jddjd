@@ -4,10 +4,11 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.telemedine.models.Hopital;
 import com.telemedine.repository.HopitalRepository;
-
+@Service
 public class HopitalService {
 
  	@Autowired

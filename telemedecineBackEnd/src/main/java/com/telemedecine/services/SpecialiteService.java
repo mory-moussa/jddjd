@@ -3,9 +3,11 @@ package com.telemedecine.services;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
 import com.telemedine.models.Specialite;
 import com.telemedine.repository.SpecialiteRepository;
-
+@Service
 public class SpecialiteService {
 	
  	@Autowired
