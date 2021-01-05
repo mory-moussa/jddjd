@@ -11,7 +11,6 @@ For more detail, please visit:
 
 > [Spring Boot + Angular 8 JWT Authentication](https://bezkoder.com/angular-spring-boot-jwt-auth/)
 
-> [Spring Boot + React JWT Authentication](https://bezkoder.com/spring-boot-react-jwt-auth/)
 
 ## Dependency
 – If you want to use PostgreSQL:
@@ -58,8 +57,8 @@ spring.jpa.properties.hibernate.dialect= org.hibernate.dialect.MySQL5InnoDBDiale
 spring.jpa.hibernate.ddl-auto= update
 
 # App Properties
-bezkoder.app.jwtSecret= bezKoderSecretKey
-bezkoder.app.jwtExpirationMs= 86400000
+telemedecine.app.jwtSecret= telemedinecretKey
+telemedecine.app.jwtExpirationMs= 86400000
 ```
 ## Run Spring Boot application
 ```
@@ -68,7 +67,7 @@ mvn spring-boot:run
 
 ## Run following SQL insert statements
 ```
-INSERT INTO roles(name) VALUES('ROLE_USER');
-INSERT INTO roles(name) VALUES('ROLE_MODERATOR');
+INSERT INTO roles(name) VALUES('ROLE_PATIENT');
+INSERT INTO roles(name) VALUES('ROLE_MEDECIN);
 INSERT INTO roles(name) VALUES('ROLE_ADMIN');
 ```
